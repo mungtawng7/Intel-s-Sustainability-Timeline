@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intel | Sustainability Through the Ages</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <svg class="intel-logo" viewBox="0 0 200 60" width="120" height="36" aria-label="Intel Logo">
+          <path fill="#0068B5" d="M35.6,18.8c-4.4,0-8,2.2-9.9,5.8v-5.2h-6.2v25.2h6.2V28.3c0-4.1,2.8-6.3,6.1-6.3c3.5,0,5.7,2.2,5.7,6.3v16.3h6.2V27.4C43.7,21.8,40.1,18.8,35.6,18.8z M14.1,19.4h-6.2v25.2h6.2V19.4z M14.1,10.6h-6.2v5.3h6.2V10.6z M57.8,24.8h-4.8v-5.4h4.8V13h6.2v6.4h6.3v5.4h-6.3v12.2c0,2.6,1.2,3.8,3.7,3.8c0.9,0,1.8-0.2,2.6-0.5v5.3c-1.3,0.5-3.1,0.8-4.9,0.8c-5.4,0-7.7-2.9-7.7-8.3V24.8z M82.1,34c0.4,4.2,3.6,6.9,8.1,6.9c3.2,0,5.9-1.2,7.7-3.2l4.1,3.8c-2.9,3.3-7.2,5.1-12.1,5.1c-8.4,0-14.2-5.7-14.2-13.8c0-8.2,5.6-14,13.7-14c8.4,0,13.4,5.9,13.4,14c0,0.5,0,1.1-0.1,1.5H82.1z M96.7,29.3c-0.4-3.8-3.3-6.1-7.2-6.1c-4.1,0-7,2.3-7.4,6.1H96.7z M116.2,19.4h-6.2v25.2h6.2V19.4z M116.2,10.6h-6.2v5.3h6.2V10.6z"/>
+        </svg>
+        <span class="logo-divider">|</span>
+        <span class="logo-tagline">Sustainability Journey</span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#timeline" class="nav-link">Timeline</a></li>
+          <li><a href="#metrics" class="nav-link">Impact Metrics</a></li>
+          <li><a href="#pledge" class="nav-link">2040 Pledge</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+        Commitment to Earth & Innovation
+      </div>
+      <h1 class="hero-title">Sustainability Through the Ages</h1>
+      <p class="hero-subtitle">
+        Explore Intel's historic milestones and future targets as we engineer tech solutions that restore our planet, reduce carbon footprints, and empower sustainable manufacturing worldwide.
+      </p>
+      <div class="hero-actions">
+        <a href="#timeline" class="btn btn-primary">Explore Timeline</a>
+        <a href="#metrics" class="btn btn-secondary">View Impact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Bar -->
+  <section class="filter-section">
+    <div class="container">
+      <div class="filter-wrapper">
+        <span class="filter-label">Filter Goals:</span>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Goals</button>
+          <button class="filter-btn" data-filter="energy">Energy & Net-Zero</button>
+          <button class="filter-btn" data-filter="water">Water Conservation</button>
+          <button class="filter-btn" data-filter="waste">Circular Economy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <main id="timeline" class="timeline-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Milestones & Future Goals</h2>
+        <p>Hover over cards or tap to discover how Intel is driving environmental leadership.</p>
+      </div>
+
+      <div class="timeline-grid">
+
+        <!-- Card 1 -->
+        <article class="timeline-card" data-category="energy">
+          <div class="card-inner">
+            <div class="card-header-img">
+              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Microchip energy efficiency" class="card-img">
+              <div class="img-overlay"></div>
+              <span class="year-badge">1993</span>
+              <div class="card-icon-overlay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="5"/>
+                  <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Energy Efficiency</span>
+                <span class="card-status status-achieved">Achieved</span>
+              </div>
+              <h3>Energy Star Pioneering</h3>
+              <p class="card-summary">
+                Intel partnered with the EPA to develop Energy Star standards for personal computers, launching low-power sleep mode CPU architectures.
+              </p>
+              <div class="card-details">
+                <ul>
+                  <li>Reduced idle power draw by over 60%.</li>
+                  <li>Established initial eco-standards for computing silicon.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="timeline-card" data-category="water">
+          <div class="card-inner">
+            <div class="card-header-img">
+              <img src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=600&q=80" alt="Fresh clean water river" class="card-img">
+              <div class="img-overlay"></div>
+              <span class="year-badge">2020</span>
+              <div class="card-icon-overlay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Water Restoration</span>
+                <span class="card-status status-achieved">Achieved</span>
+              </div>
+              <h3>RISE 2020 Goals & Water Savings</h3>
+              <p class="card-summary">
+                Achieved 100% net positive water restoration across multiple manufacturing sites and restored billions of gallons of freshwater to local watersheds.
+              </p>
+              <div class="card-details">
+                <ul>
+                  <li>7.1 Billion gallons of water conserved.</li>
+                  <li>In-house water reclamation plants built globally.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="timeline-card" data-category="energy">
+          <div class="card-inner">
+            <div class="card-header-img">
+              <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=600&q=80" alt="Renewable energy wind turbines" class="card-img">
+              <div class="img-overlay"></div>
+              <span class="year-badge">2030</span>
+              <div class="card-icon-overlay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Renewable Power</span>
+                <span class="card-status status-in-progress">In Progress</span>
+              </div>
+              <h3>100% Renewable Electricity</h3>
+              <p class="card-summary">
+                Targeting 100% renewable electricity usage across global operations and zero waste to landfills across semiconductor fabrication plants.
+              </p>
+              <div class="card-details">
+                <ul>
+                  <li>93% achieved as of recent reporting.</li>
+                  <li>Solar arrays & wind purchase agreements expanded.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="timeline-card" data-category="waste">
+          <div class="card-inner">
+            <div class="card-header-img">
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80" alt="Green eco growth sprout" class="card-img">
+              <div class="img-overlay"></div>
+              <span class="year-badge">2040</span>
+              <div class="card-icon-overlay">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Net-Zero GHG</span>
+                <span class="card-status status-target">Future Target</span>
+              </div>
+              <h3>Net-Zero Greenhouse Gas Emissions</h3>
+              <p class="card-summary">
+                Committed to reaching net-zero greenhouse gas emissions (Scope 1 and Scope 2) across all global operations by 2040.
+              </p>
+              <div class="card-details">
+                <ul>
+                  <li>Investing $300M+ in energy efficiency projects.</li>
+                  <li>Ultra-low carbon chip manufacturing technologies.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Metrics Section -->
+  <section id="metrics" class="metrics-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Impact by the Numbers</h2>
+        <p>Measurable progress toward sustainable computing and environmental stewardship.</p>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-number" data-target="93">0%</div>
+          <div class="metric-label">Renewable Electricity Globally</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number" data-target="10">0B+</div>
+          <div class="metric-label">Gallons Water Restored Annually</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number" data-target="90">0%</div>
+          <div class="metric-label">Manufacturing Waste Recycled</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number" data-target="2040">2000</div>
+          <div class="metric-label">Net-Zero GHG Emissions Commitment</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Banner & Note -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-note">
+        Scroll to view timeline &nbsp;|&nbsp; Hover over cards to learn more!
+      </p>
+      <div class="footer-copy">
+        <p>&copy; Intel Sustainability Initiative. Built with HTML5, CSS Flexbox & Responsive Design.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
