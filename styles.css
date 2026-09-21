@@ -109,6 +109,14 @@ body {
   gap: 12px;
 }
 
+.intel-brand {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--intel-blue);
+  text-transform: uppercase;
+}
+
 .logo-divider {
   color: #CBD5E1;
   font-weight: 300;
